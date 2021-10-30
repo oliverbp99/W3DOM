@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>getElementsByTagName example</title>
+</head>
+<body style="border: solid green 3px">
+<div id="div1" style="border: solid blue 3px">
+  <h1>Pokemons</h1>
+  <p>Charmander</p>
+  <p>Bulbasuar</p>
+  <p>Pikachu</p>
+
+  <div id="div2" style="border: solid red 3px">
+    <p>Mew</p>
+    <p>Magicarp</p>
+  </div>
+</div>
+
+<button onclick="getAllPElements();">
+  Viser hvor mange p elementer der er i hele dokumentet</button><br />
+
+<button onclick="getPElementsFromBlueSquare();">
+  Viser hvor mange p elementer der er i div 1</button><br />
+
+<button onclick="getPElementsFromRedSquare();">
+  Viser hvor mange p elementer der er i div 2</button>
+
+<script src="getelementbytagid.js"></script>
+</body>
+</html>
